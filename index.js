@@ -1,8 +1,8 @@
 "use strict"
 
-alert("let's make a pyramid")
+alert("let's make a half pyramid")
 
-let userInput = prompt("input your pyramid height")
+let userInput = prompt("input your half pyramid height")
 let outputBlock = "";
 
 for (var i = 1; i <= userInput; i++) {
