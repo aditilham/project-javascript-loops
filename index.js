@@ -2,7 +2,7 @@
 
 alert("let's make a half pyramid")
 
-let userInput = prompt("input your half pyramid height")
+let userInput = parseInt(prompt("input your half pyramid height"))
 let outputBlock = "";
 
 for (var i = 1; i <= userInput; i++) {
